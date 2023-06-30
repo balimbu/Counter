@@ -1,7 +1,7 @@
 // useState hook in React
-// const {useState} = React;
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
+const {useState} = React;
+// import React, { useState } from 'react';
+// import ReactDOM from 'react-dom';
 
 // functional component
 const CounterButton = () => {

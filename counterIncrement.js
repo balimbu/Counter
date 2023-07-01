@@ -16,8 +16,10 @@ const CounterButton = () => {
 
   return (  
     <div>
-      <h1>Counter: {count} </h1>
-      <button onClick = {incrementCount} > Increment </button>
+      <h1 class="text-center">Counter: {count} </h1>
+      <div class="col-md-12 text-center">
+      <button class="btn btn-success text-light" onClick = {incrementCount} > {count} </button>
+      </div>
     </div>
   );
 
